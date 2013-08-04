@@ -113,7 +113,7 @@ function home_latest_post() {
 
 // Twitter
 function twitter_account() {
-  return site_meta('twitter-account', 'ctrunsthis');
+  return site_meta('twitter-account');
 }
 
 function twitter_url() {
@@ -122,14 +122,34 @@ function twitter_url() {
 
 // Dribbble
 function dribbble_account() {
-  return site_meta('dribbble-account', 'coletownsend');
+  return site_meta('dribbble-account');
 }
 
 function dribbble_url() {
   return 'http://dribbble.com/' . dribbble_account();
 }
 
-// Dribbble
+// Instagram
+
+function instagram_account() {
+  return site_meta('instagram-account');
+}
+
+function instagram_url() {
+  return 'http://instagram.com/' . instagram_account();
+}
+
+// Facebook
+function facebook_account() {
+  return site_meta('facebook-account');
+}
+
+function facebook_url() {
+  return 'http://facebook.com/' . facebook_account();
+}
+
+
+// Email
 function email_account() {
   return site_meta('email-account');
 }
