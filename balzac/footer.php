@@ -19,7 +19,7 @@
             <?php endif; ?>
             
             <?php if(site_meta('dribbble-account')): ?> 
-        	<li><a id="dribble" href="<?php echo dribbble_url(); ?>" target="_blank"><span class="foot-link"><?php echo dribbble_account(); ?></span></a></li>
+        	<li><a id="dribble" href="<?php echo dribbble_url(); ?>" target="_blank"><span class="foot-link">Dribble</span></a></li>
         	<?php endif; ?> 
             
             <?php if(site_meta('facebook-account')): ?> 
